@@ -12,7 +12,7 @@ public class ArrayActividadN1 {
         for (int i = 1; i < 10; i++){
             lista.add(ramdom.nextInt(1000) + 1); 
         }    
-        
+        System.out.print("holaa POO")
         
         for(int i = 0; i < lista.size(); i++){
              System.out.println( "El número: " +  lista.get(i) + " esta en la posicion : " + i);
